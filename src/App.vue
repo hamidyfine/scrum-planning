@@ -2,6 +2,13 @@
     <v-app>
         <v-app-bar app flat>
             <v-toolbar-title>Scrum Planning Helper</v-toolbar-title>
+            <v-spacer></v-spacer>
+            <v-btn to="/" text class="mr-2">
+                Home
+            </v-btn>
+            <v-btn to="/settings" text>
+                Settings
+            </v-btn>
         </v-app-bar>
 
         <v-main>
